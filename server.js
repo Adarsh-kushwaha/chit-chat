@@ -4,7 +4,7 @@ const http = require('http');
 const socketio = require('socket.io');
 const format = require('./utils/formatMsg');
 const { userJoin, currentUser, removeUser, getRoomUsers } = require("./utils/users");
-require("dotenv").config();
+// require("dotenv").config();
 
 const app = express();
 const server = http.createServer(app)
